@@ -11,3 +11,5 @@ Sept 11 - Added Submission Assignment #2
 Sept 17 - Added Project4_dictionaries. Code includes Assignment #'s
 
 Sept 18 - Added Project5_comparisons_type_coercion
+
+Sept 19 - Added Project6_ternary_operators_constructors
