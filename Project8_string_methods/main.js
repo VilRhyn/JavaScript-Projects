@@ -18,7 +18,22 @@ function string_Method() { //Assignment #46
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
 }
 
-function precision_Method() {
+function precision_Method() { //Assignment #47
     var X = 12938.3012987376112;
     document.getElementById("Precision").innerHTML = X.toPrecision(10);
 }
+
+function countdown() { //Assignment #48
+    var seconds = document.getElementById("seconds").ariaValueMax;
+
+    function tick() {
+        seconds = seconds -1;
+        TimeRanges.innerHTML = seconds;
+        setTimeout(tick,1000);
+        if (seconds == -1) {
+            alert("Time's up!");
+        }
+    }
+    tick();
+}
+
