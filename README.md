@@ -19,3 +19,5 @@ Sept 19 - Added Project7_scope_time_function
 Sept 20 - Added Project8_string_methods
 
 Sept 20 - Added Project9_countdown_slideshow
+
+Sept 20 - Added updated Project9 folder (index.html & main.js) For corrections on Submission Assignment #9
