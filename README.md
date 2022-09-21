@@ -16,4 +16,6 @@ Sept 19 - Added Project6_ternary_operators_constructors
 
 Sept 19 - Added Project7_scope_time_function
 
-Sept 20 - Project8_string_methods
+Sept 20 - Added Project8_string_methods
+
+Sept 20 - Added Project9_countdown_slideshow
