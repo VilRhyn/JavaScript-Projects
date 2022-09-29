@@ -23,3 +23,6 @@ Sept 20 - Added Project9_countdown_slideshow
 Sept 20 - Added updated Project9 folder (index.html & main.js) For corrections on Submission Assignment #9
 
 Sept 29 - Added tic tac toe folder
+
+Sept 29 - debug tictactoe.js - line 80 -'80' +'8o' 
+        - line 80 removed space
