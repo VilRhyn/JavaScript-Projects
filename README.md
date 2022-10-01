@@ -26,3 +26,5 @@ Sept 29 - Added tic tac toe folder
 
 Sept 29 - debug tictactoe.js - line 80 -'80' +'8o' 
         - line 80 removed space
+
+October 1 - Added Calculator folder
