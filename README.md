@@ -28,3 +28,5 @@ Sept 29 - debug tictactoe.js - line 80 -'80' +'8o'
         - line 80 removed space
 
 October 1 - Added Calculator folder
+
+October 1 - Added Pizza_Project folder
