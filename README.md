@@ -32,3 +32,5 @@ October 1 - Added Calculator folder
 October 1 - Added Pizza_Project folder
 
 October 3 - Added pizza.html - corrected price bug on xtra lrg pizza
+
+October 4 - Added finished calculator project - details added to pizza.js
