@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>All you can eat cookies
+</title>
+</head>
+<body>
+	<link rel="stylesheet" href="./css/one_page_website.css">
+<!--NAV-->
+<div>
+	<ul>
+		<a href="#home" id="link"></a> <li>HOME</li></a>
+		<a href="#gallery"></a><li>GALLERY</li></a>
+		<a href="#videos"></a><li>VIDEOS</li></a>
+		<a href="#contact"></a><li>CONTACT</li></a>
+	</ul>
+</div>
+<!--END NAV-->
+
+<!--HOME-->
+<div id="home">
+	<div>
+		<span>COOKIES</span>
+		<h1>Cookies, Cookies which ones to make?
+Cookies, Cookies which ones to bake?</h1>
+<p>Is it oatmeal for him? sugar for me?
+Ooh! these jam ones look scrumptious (in the picture) you see?
+Will it be bran for momma, or peanut butter for sis?
+Oh, I could cook them all and someone's favorite still miss.....
+I could wash, and I could dust & sweep and mop , till i'm dead,
+but alas, if you watch, I'll be baking instead because I have cookies in my head.
+Cookies, Cookies, which ones to make
+Cookis, Cookies, which ones to bake?</p>
+	</div>
+</div>
+
+<!--GALLERY-->
+<body>
+
+	<h2 style="text-align:center">Cookies</h2>
+	
+	<div class="row">
+	  <div class="column">
+		<img src="./Images/cookie_1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+		<img src="./Images/cookie_2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+		<img src="./Images/cookie_3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+	  </div>
+
+	</div>
+	
+	<div id="myModal" class="modal">
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+	  <div class="modal-content">
+	
+		<div class="mySlides">
+		  <div class="numbertext">1 / 4</div>
+		  <img src="./Images/cookie_3.jpg" style="width:100%">
+		</div>
+	
+		<div class="mySlides">
+		  <div class="numbertext">2 / 4</div>
+		  <img src="./Images/cookie_2.jpg" style="width:100%">
+		</div>
+	
+		<div class="mySlides">
+		  <div class="numbertext">3 / 4</div>
+		  <img src="./Images/cookie_3.jpg" style="width:100%">
+		</div>
+		
+	
+		
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	
+		<div class="caption-container">
+		  <p id="caption"></p>
+		</div>
+	
+	
+		<div class="column">
+		  <img class="demo cursor" src="./images/cookie_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="cookies1">
+		</div>
+		<div class="column">
+		  <img class="demo cursor" src="./images/cookie_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="cookies2">
+		</div>
+		<div class="column">
+		  <img class="demo cursor" src="./images/cookie_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="cookies3">
+		</div>
+	
+		</div>
+	  </div>
+	</div>
+	
+<section>
+	<div id="gallery">
+		<hi>Gallery</h1>
+		<div>
+	
+	<!--PHOTO-CONTAINER 1-->
+			
+			<div><img src="./images/cookie_1.jpg" alt="photoshop_assorted_cookies">
+				<div>	
+					<h3>Click here</h3>
+						<p>There are so many types of cookies to choose from!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--END PHOTO-CONTAINER 1-->
+	
+	<!--PHOTO-CONTAINER 2-->
+			
+			<div><img src="./images/cookie_2.jpg" alt="">
+				<div>	
+					<h3>Click here</h3>
+						<p>Use imagination, don't make it grusome!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--END PHOTO-CONTAINER 2-->	
+	
+		<!--PHOTO-CONTAINER 3-->
+			
+			<div><img src="./images/cookie_3.jpg" alt="">
+				<div>	
+					<h3>Click here</h3>
+						<p>There are so many types of cookies to choose from!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--END PHOTO-CONTAINER 3-->
+</section>
+<!--END GALLERY-->
+
+<!--VIDEOS-->
+<div id="videos">
+<iframe width="1479" height="554"
+ src="https://www.youtube.com/embed/rEdl2Uetpvo"
+ title="How To Make Perfect Chocolate Chip Cookies"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+ <!--END VIDEOS-->
+
+<!--CONTACT-->
+<section>
+<div id="contact">
+	<div>
+		<h1>Contact Us!<h1>
+		<div>
+			<h2>
+				<span>Taste to believe!</span>
+					<br />Reserve your cookie today!
+			</h2>
+			<p>Please provide us with your basic contact information, and we will get ahold of you!</p>
+				<div>
+					<form action="" method="post">
+						<input class="rsvp" type="text" value="FirstName">
+						<input class="rsvp" type="text" value="Last Name">
+						<input class="rsvp" type="text" value="Email Address">
+						<input class="rsvp" type="text" value="Phone Number">
+						<div class="Cookie connoisseur">
+						<label class="terms">Terms and Conditions</label>
+						</div>
+				</div>
+		</div>
+	</div>
+</div>
+</section>
+<!--END CONTACT-->
+
+<!--FOOTER-->
+<div><footer>
+VilRhyn &nbsp;|&nbsp; &copy; 2022
+</footer>
+</div>
+<!--END FOOTER-->
+
+</body>
+
+
+</html>
