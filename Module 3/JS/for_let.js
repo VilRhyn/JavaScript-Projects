@@ -1,4 +1,4 @@
-
+//this is where i use a for and a let loop 
 const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 
 let text = "";
