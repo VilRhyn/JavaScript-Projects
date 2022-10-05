@@ -38,3 +38,5 @@ October 4 - Added finished calculator project - details added to pizza.js
 October 4 - Added Module 3 Folder - Submission #10
 
 October 4 - Added Submission assignment 14 - One-Page-Website - Lightbox
+
+October 5 - Added AJAX folder for Challenge #23
