@@ -41,4 +41,4 @@ October 4 - Added Submission assignment 14 - One-Page-Website - Lightbox
 
 October 5 - Added AJAX folder for Challenge #23
 
-October 5 - Added jQuery Folder for submission assignment #18
+October 5 - Added jQuery Folder for submission assignment #16
